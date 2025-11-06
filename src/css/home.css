@@ -1,0 +1,3053 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*todo FONT  */
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+}
+/*todo FONT END  */
+/*todo SHORCUT  */
+.marginLeft-65 {
+  margin-left: 65px;
+}
+.marginLeft-20 {
+  margin-left: 20px;
+}
+.marginLeft-15 {
+  margin-left: 15px;
+}
+.marginLeft-10 {
+  margin-left: 10px;
+}
+/*todo SHORCUT END  */
+
+/*? NAVIGATION BAR  ==================== */
+nav {
+  background-color: white;
+  /* position: sticky;
+  top: 0; */
+
+  .container-navTop {
+    display: flex;
+    padding-top: 20px;
+
+    .ibox-logo {
+      width: 110px;
+      margin-right: 6px;
+      margin-left: 40px;
+      margin-top: 10px;
+    }
+    .apple-premium-logo {
+      width: 80px;
+      height: 40px;
+      margin-top: 15px;
+      border: 1px solid black;
+      border-radius: 9px;
+    }
+
+    .input-produk {
+      background-color: #f7f7f7;
+      margin-left: 200px;
+      margin-top: 21px;
+      border-radius: 50px;
+      width: 480px;
+      border: none;
+    }
+
+    .toko-icon {
+      margin-top: 29px;
+      margin-left: 90px;
+      height: 23px;
+      cursor: pointer;
+    }
+    .paraf-toko {
+      margin-top: 36px;
+      margin-left: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .paraf-toko:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+
+    .user-icon {
+      margin-top: 29px;
+      margin-left: 95px;
+      height: 24px;
+      cursor: pointer;
+    }
+    .user-icon:hover {
+      transform: scaleY(0.9);
+      transition: 1s ease-in-out;
+    }
+    .shopping-icon {
+      margin-top: 28px;
+      height: 25px;
+      cursor: pointer;
+    }
+    .shopping-icon:hover {
+      transform: scaleY(0.9);
+      transition: 1s ease-in-out;
+    }
+  }
+
+  .container-ulProduk {
+    justify-content: space-around;
+    margin-top: 29px;
+    display: flex;
+    cursor: pointer;
+
+    .li-Produk {
+      list-style-type: none;
+      padding-bottom: 19px;
+    }
+    .li-Produk:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+  }
+}
+/*? NAVIGATION BAR END ==================== */
+/*! NAVIGATION SLIDER  ================== */
+.wrapper {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+
+  .slider {
+    display: flex;
+    transition: 2s;
+  }
+  .image-banner {
+    width: 800px;
+  }
+}
+
+#slide-1:target ~ .slider {
+  margin-left: 0px;
+}
+#slide-2:target ~ .slider {
+  margin-left: -100%;
+}
+#slide-3:target ~ .slider {
+  margin-left: -200%;
+}
+#slide-4:target ~ .slider {
+  margin-left: -300%;
+}
+#slide-5:target ~ .slider {
+  margin-left: -400%;
+}
+#slide-6:target ~ .slider {
+  margin-left: -500%;
+}
+#slide-7:target ~ .slider {
+  margin-left: -600%;
+}
+#slide-8:target ~ .slider {
+  margin-left: -700%;
+}
+#slide-9:target ~ .slider {
+  margin-left: -800%;
+}
+
+.container-navigasiSlider {
+  .navigasi-slide {
+    position: absolute;
+    background-color: #fff;
+    width: 270px;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 260px;
+    margin-top: -25px;
+    box-shadow: 1px 8px 10px 0px rgba(38, 33, 33, 0.75);
+    -webkit-box-shadow: 1px 8px 10px 0px rgba(38, 33, 33, 0.75);
+    -moz-box-shadow: 1px 8px 10px 0px rgba(38, 33, 33, 0.75);
+
+    .a-slider1 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: -5px;
+    }
+    .a-slider1:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider2 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider2:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider3 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider3:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider4 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider4:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider5 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider5:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider6 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider6:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider7 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider7:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider8 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider8:hover {
+      background-color: rgb(122, 120, 120);
+    }
+
+    .a-slider9 {
+      background-color: rgb(228, 222, 222);
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      font-size: 0;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .a-slider9:hover {
+      background-color: rgb(122, 120, 120);
+    }
+  }
+}
+/*! NAVIGATION SLIDER END ================== */
+.batas2 {
+  border-bottom: 1px solid #ccc;
+}
+/*? PRODUK IBOX  ===================== */
+.Judul-produk {
+  margin-left: 65px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-Produk {
+  height: 25vh;
+  display: flex;
+  margin-top: 20px;
+}
+/*todo CARD PRODUK 1 */
+.card1 {
+  width: 200px;
+  height: 160px;
+  margin-left: 65px;
+
+  .mac-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-mac {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-mac2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 1 END */
+/*todo CARD PRODUK 2 */
+.card2 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .iPhone-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-iPhone {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-iPhone2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 2 END */
+/*todo CARD PRODUK 3 */
+.card3 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .iPad-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-iPad {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-iPad2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 3 END */
+/*todo CARD PRODUK 4 */
+.card4 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .watch-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-watch {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-watch2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 4 END */
+/*todo CARD PRODUK 5 */
+.card5 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .music-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-music {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-music2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 5 END */
+/*todo CARD PRODUK 6 */
+.card6 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .aksesori-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-aksesori {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-aksesori2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 6 END */
+/*todo CARD PRODUK 7 */
+.card7 {
+  width: 200px;
+  height: 160px;
+  margin-left: -18px;
+
+  .AirTag-produk {
+    width: 90px;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .paraf-AirTag {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .paraf-AirTag2 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+/*todo CARD PRODUK 7 END */
+/*? PRODUK IBOX END ====================== */
+
+.batas3 {
+  margin-top: 9px;
+}
+
+/*! PRODUK IBOX 2  ====================== */
+.Judul-produk2 {
+  margin-left: 65px;
+  margin-top: 30px;
+  font-size: 33px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-produk2 {
+  height: 75dvh;
+  display: flex;
+  overflow-x: auto;
+}
+.container-produk2::-webkit-scrollbar {
+  width: 0;
+}
+
+.cardProduk2 {
+  min-width: 280px;
+  height: 65vh;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+  -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+}
+
+/*todo CARD PRODUK 2.1 */
+.produk2-iPhone16-Pro {
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.parafProduk-iPhone16-Pro {
+  color: #337ab7;
+  font-size: 13px;
+  margin-left: -153px;
+}
+.Nama-Produk-iPhone16-Pro {
+  font-size: 24px;
+  margin-left: -65px;
+  margin-top: 6px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.paraf2Produk-iPhone16-pro {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: -115px;
+  margin: 4px 0 0 -115px;
+}
+.Harga-Produk-iPhone16-Pro {
+  margin: 25px 0 0 -88px;
+}
+/*todo CARD PRODUK 2.1 END */
+/*todo CARD PRODUK 2.2 */
+.produk2-iPhone16 {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.parafProduk-iPhone16 {
+  color: #337ab7;
+  font-size: 13px;
+  margin-left: -153px;
+}
+.Nama-Produk-iPhone16 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 6px 0 0 -110px;
+  font-family: sans-serif;
+}
+.paraf2Produk-iPhone16 {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 -42px;
+}
+.Harga-Produk-iPhone16 {
+  margin: 25px 0 0 -88px;
+}
+/*todo CARD PRODUK 2.2 END */
+/*todo CARD PRODUK 2.3 */
+.produk2-iPhone16-e {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.parafProduk-iPhone16-e {
+  color: #337ab7;
+  font-size: 13px;
+  margin-left: -155px;
+}
+.Nama-Produk-iPhone16-e {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0 0 -105px;
+  font-family: sans-serif;
+}
+.paraf2Produk-iPhone16-e {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 21px;
+}
+.Harga-Produk-iPhone16-e {
+  margin: 4px 0 0 -88px;
+}
+/*todo CARD PRODUK 2.3 END */
+/*todo CARD PRODUK 2.4 */
+.produk2-MacBook-Pro-M4 {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.Nama-Produk-MacBook-Pro-M4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 25px 0 0 -45px;
+  font-family: sans-serif;
+}
+.paraf2Produk-MacBook-Pro-M4 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 21px;
+}
+.Harga-Produk-MacBook-Pro-M4 {
+  margin: 23px 0 0 -74px;
+}
+/*todo CARD PRODUK 2.4 END */
+/*todo CARD PRODUK 2.5 */
+.produk2-MacMini-M4 {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.Nama-Produk-MacMini-M4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 25px 0 0 -95px;
+  font-family: sans-serif;
+}
+.paraf2Produk-MacMini-M4 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 21px;
+}
+.Harga-Produk-MacMini-M4 {
+  margin: 3px 0 0 -93px;
+}
+/*todo CARD PRODUK 2.5 END */
+/*todo CARD PRODUK 2.6 */
+.produk2-iPadMini-A17-Pro {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.Nama-Produk-iPadMini-A17-Pro {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 25px 0 0 -40px;
+  font-family: sans-serif;
+}
+.paraf2Produk-iPadMini-A17-Pro {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 19px;
+}
+.Harga-Produk-iPadMini-A17-Pro {
+  margin: 24px 0 0 -93px;
+}
+/*todo CARD PRODUK 2.6 END */
+/*todo CARD PRODUK 2.7 */
+.produk2-iPhone15 {
+  width: 200px;
+  margin: 15px 0 0 15px;
+}
+.Nama-Produk-iPhone15 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 2px 0 0 -128px;
+  font-family: sans-serif;
+}
+.paraf2Produk-iPhone15 {
+  text-align: left;
+  margin: 4px 0 0 19px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.Harga-Produk-iPhone15 {
+  margin-top: 21px;
+  margin-left: -93px;
+  margin: 21px 0 0 -93px;
+}
+/*todo CARD PRODUK 2.7 END */
+/*! PRODUK IBOX 2 END ====================== */
+/*? LAYANAN DAN PENAWARAN =================== */
+.judul-layanan-penawaran {
+  margin: 30px 0 0 65px;
+  font-size: 33px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-layanan-penawaran {
+  height: 143dvh;
+  background-color: #ecedff;
+
+  .container-Cardlayanan {
+    display: flex;
+    margin-top: 19px;
+    height: 38vh;
+    background-color: white;
+    box-shadow: 0px 4px 5px 0px rgba(181, 172, 172, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(181, 172, 172, 0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(181, 172, 172, 0.75);
+
+    /* todo Card layanan penawaran (PICKUP) */
+    .card-pickup {
+      cursor: pointer;
+      width: 250px;
+      height: 165px;
+      margin: 15px 0 0 68px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+      .paraf-pickup {
+        margin-top: 9px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #707070;
+      }
+      .paraf2-pickup {
+        font-size: 21px;
+        font-weight: 500;
+        margin-left: 2px;
+        color: #707070;
+      }
+      .paraf3-pickup {
+        font-size: 21px;
+        font-weight: 500;
+        margin: -2px 0 0 2px;
+      }
+    }
+    .card-pickup:hover {
+      transition-duration: 1s;
+      transform: scaleX(1.1);
+      background-color: #51575c;
+
+      .paraf-pickup {
+        color: white;
+      }
+      .paraf3-pickup {
+        color: white;
+      }
+    }
+    /* todo Card layanan penawaran (PICKUP) */
+    /* todo Card layanan penawaran (FINANCING) */
+    .card-financing {
+      cursor: pointer;
+      width: 275px;
+      height: 166px;
+      margin: 15px 0 0 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+      .paraf-financing {
+        margin-top: 9px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #0071bc;
+      }
+      .paraf2-financing {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+      }
+      .paraf3-financing {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+        color: #0071bc;
+      }
+    }
+    .card-financing:hover {
+      transition-duration: 1s;
+      transform: scaleX(1.1);
+      background-color: #51575c;
+
+      .paraf2-financing {
+        color: white;
+      }
+      .paraf3-financing {
+        color: #707070;
+      }
+    }
+    /* todo Card layanan penawaran (FINANCING) */
+    /* todo Card layanan penawaran (IBOX EXPERIENCE DAYS) */
+    .card-ibox-experience-days {
+      cursor: pointer;
+      width: 275px;
+      height: 167px;
+      margin: 15px 0 0 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+      .paraf-ibox-experience-days {
+        margin-top: 9px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #707070;
+      }
+
+      .paraf2-ibox-experience-days {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+      }
+      .paraf3-ibox-experience-days {
+        font-size: 21px;
+        font-weight: 500;
+        color: #707070;
+        margin: -30px 0 0 133px;
+      }
+      .paraf4-ibox-experience-days {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+        color: #707070;
+      }
+    }
+    .card-ibox-experience-days:hover {
+      transition-duration: 1s;
+      transform: scaleX(1.1);
+      background-color: #51575c;
+
+      .paraf-ibox-experience-days {
+        color: white;
+      }
+      .paraf2-ibox-experience-days {
+        color: white;
+      }
+    }
+    /* todo Card layanan penawaran (IBOX EXPERIENCE DAYS) */
+    /* todo Card layanan penawaran (SALE) */
+    .card-sale {
+      cursor: pointer;
+      width: 265px;
+      height: 167px;
+      margin: 15px 0 0 25px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+      -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+      .paraf-sale {
+        margin-top: 9px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #008900;
+      }
+      .paraf2-sale {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+        color: #008900;
+      }
+      .paraf3-sale {
+        font-size: 21px;
+        font-weight: 500;
+        margin: -31px 0 0 85px;
+      }
+      .paraf4-sale {
+        font-size: 21px;
+        margin-left: 2px;
+        font-weight: 500;
+      }
+    }
+    .card-sale:hover {
+      transition-duration: 1s;
+      transform: scaleX(1.1);
+      background-color: #51575c;
+      color: white;
+
+      .paraf2-sale {
+        color: white;
+      }
+      .paraf3-sale {
+        color: #707070;
+      }
+      .paraf4-sale {
+        color: #707070;
+      }
+    }
+    /* todo Card layanan penawaran (SALE) */
+  }
+
+  /** 3 PRODUK LAYANAN DAN PENAWARAN ===================  */
+  /*todo Card produk layanan penawaran (iPhone 16 Pro)  */
+  .container-produkLayanan-penawaran {
+    display: flex;
+
+    .Card-layananPenawaran-iPhone16-pro {
+      background-color: white;
+      text-align: center;
+      align-items: center;
+      width: 590px;
+      height: 92vh;
+      padding: 10px;
+      margin: 35px 0 0 65px;
+      border-radius: 1px;
+
+      .parafCard-layanan-iPhone16-pro {
+        color: #c86837;
+        font-weight: 600;
+        font-size: 13px;
+        margin: 35px 0 0 -5px;
+      }
+      .judulCard-layanan-iPhone16-pro {
+        font-family: sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        margin-top: -3px;
+      }
+      .parafCard2-layanan-iPhone16-pro {
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .button-layananProduk-iPhone16-Pro {
+        background-color: #0071e3;
+        cursor: pointer;
+        color: white;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        padding: 15px 24px 15px 24px;
+        border-radius: 50px;
+      }
+      .button-layananProduk-iPhone16-Pro:hover {
+        background-color: #5399df;
+      }
+      .img-produkLayanan-iPhone16-Pro {
+        width: 350px;
+      }
+    }
+    /*todo Card produk layanan penawaran (iPhone 16 Pro)  */
+    /* ===================================== */
+    .container2-produkLayanan-penawaran {
+      /* background-color: pink; */
+      flex-wrap: wrap;
+      width: 800px;
+      height: 105dvh;
+
+      /*todo Card produk layanan penawaran (iPhone 16)  */
+      .Card-layananPenawaran-iPhone16 {
+        background-color: white;
+        width: 585px;
+        height: 45vh;
+        margin: 35px 0 0 30px;
+
+        .displayFlex-produkLayanan-iPhone16 {
+          display: flex;
+
+          .img-produkLayanan-iPhone16 {
+            width: 250px;
+          }
+          .container-parafCard-produkLayanan-iPhone16 {
+            width: 335px;
+            margin: 25px 15px;
+            text-align: center;
+            align-items: center;
+
+            .parafCard-layanan-iPhone16 {
+              color: #c86837;
+              font-weight: 600;
+              font-size: 13px;
+              margin-top: 15px;
+            }
+            .judulCard-layanan-iPhone16 {
+              font-family: sans-serif;
+              font-size: 35px;
+              font-weight: 600;
+              margin-top: -3px;
+            }
+            .parafCard2-layanan-iPhone16 {
+              font-size: 12px;
+              font-weight: 500;
+            }
+            .button-layananProduk-iPhone16 {
+              background-color: #0071e3;
+              cursor: pointer;
+              color: white;
+              border: none;
+              font-size: 15px;
+              font-weight: 600;
+              margin-top: 20px;
+              padding: 15px 24px 15px 24px;
+              border-radius: 50px;
+            }
+            .button-layananProduk-iPhone16:hover {
+              background-color: #5399df;
+            }
+          }
+        }
+      }
+      /*todo Card produk layanan penawaran (iPhone 16)  */
+      /*todo Card produk layanan penawaran (iPhone 16 e)  */
+      .Card-layananPenawaran-iPhone16-e {
+        background-color: white;
+        width: 585px;
+        height: 45vh;
+        margin: 30px 0 0 30px;
+
+        .displayFlex-produkLayanan-iPhone16-e {
+          display: flex;
+
+          .img-produkLayanan-iPhone16-e {
+            width: 250px;
+          }
+          .container-parafCard-produkLayanan-iPhone16 {
+            width: 335px;
+            margin: 25px 15px 0 0;
+            text-align: center;
+            align-items: center;
+          }
+          .parafCard-layanan-iPhone16-e {
+            color: #c86837;
+            font-weight: 600;
+            font-size: 13px;
+            margin-top: 15px;
+          }
+          .judulCard-layanan-iPhone16-e {
+            font-family: sans-serif;
+            font-size: 35px;
+            font-weight: 600;
+            margin-top: -3px;
+          }
+          .parafCard2-layanan-iPhone16 {
+            font-size: 12px;
+            font-weight: 500;
+          }
+          .button-layananProduk-iPhone16-e {
+            background-color: #0071e3;
+            cursor: pointer;
+            color: white;
+            border: none;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 20px;
+            padding: 15px 14px 15px 24px;
+            border-radius: 50px;
+          }
+          .button-layananProduk-iPhone16-e:hover {
+            background-color: #5399df;
+          }
+        }
+      }
+      /*todo Card produk layanan penawaran (iPhone 16 e)  */
+    }
+  }
+}
+/** 3 PRODUK LAYANAN DAN PENAWARAN ===================  */
+/*? LAYANAN DAN PENAWARAN END =================== */
+/*! IKUTI KELAS DAN HAL LAINNYA DI TOKO ===================   */
+.judul-kelas-halLain {
+  margin: 30px 0 0 65px;
+  font-size: 33px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-kelas-halLain {
+  height: 75dvh;
+  display: flex;
+
+  /* todo CARD KELAS DAN HAL LAINNYA (1) */
+  .card1-kelas-halLain {
+    background-color: white;
+    cursor: pointer;
+    width: 290px;
+    height: 68vh;
+    margin: 15px 0 0 65px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+    .img1-kelas-halLain {
+      width: 250px;
+      margin: 19px 0 0 19px;
+      border-radius: 12px;
+    }
+    .parafCard-kelas-halLain-kirimAmbil {
+      font-size: 13px;
+      font-weight: 600;
+      color: #707070;
+      margin: 20px 0 0 15px;
+    }
+    .parafCard2-kelas-halLain-kirimAmbil {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 20px 0 0 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .parafCard3-kelas-halLain-kirimAmbil {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 12px 0 0 20px;
+    }
+    .parafCard4-kelas-halLain-kirimAmbil {
+      font-size: 14px;
+      margin: 18px 0 0 20px;
+      font-weight: 400;
+    }
+  }
+  /* todo CARD KELAS DAN HAL LAINNYA (1) */
+  /* todo CARD KELAS DAN HAL LAINNYA (2) */
+  .card2-kelas-halLain {
+    background-color: white;
+    cursor: pointer;
+    width: 290px;
+    height: 68vh;
+    margin: 15px 0 0 20px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+    .img2-kelas-halLain {
+      width: 250px;
+      margin: 19px 0 0 19px;
+      border-radius: 12px;
+    }
+    .parafCard-kelas-halLain-cariToko {
+      font-size: 13px;
+      font-weight: 600;
+      color: #707070;
+      margin: 20px 0 0 15px;
+    }
+    .parafCard2-kelas-halLain-cariToko {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 20px 0 0 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .parafCard3-kelas-halLain-cariToko {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 12px 0 0 20px;
+    }
+    .parafCard4-kelas-halLain-cariToko {
+      font-size: 14px;
+      margin: 18px 0 0 20px;
+      font-weight: 400;
+    }
+  }
+  /* todo CARD KELAS DAN HAL LAINNYA (2) */
+  /* todo CARD KELAS DAN HAL LAINNYA (3) */
+  .card3-kelas-halLain {
+    background-color: white;
+    cursor: pointer;
+    width: 290px;
+    height: 68vh;
+    margin: 15px 0 0 20px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+  }
+  .img3-kelas-halLain {
+    width: 250px;
+    margin: 19px 0 0 19px;
+    border-radius: 12px;
+  }
+  .parafCard-kelas-halLain-ikutiKelas {
+    font-size: 13px;
+    font-weight: 600;
+    color: #707070;
+    margin: 20px 0 0 15px;
+  }
+  .parafCard2-kelas-halLain-ikutiKelas {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .parafCard3-kelas-halLain-ikutiKelas {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0 0 20px;
+  }
+  .parafCard4-kelas-halLain-ikutiKelas {
+    font-size: 14px;
+    margin: 18px 0 0 20px;
+    font-weight: 400;
+  }
+}
+/* todo CARD KELAS DAN HAL LAINNYA (3) */
+/* todo CARD KELAS DAN HAL LAINNYA (4) */
+.card4-kelas-halLain {
+  background-color: white;
+  cursor: pointer;
+  width: 290px;
+  height: 68vh;
+  margin: 15px 0 0 20px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+  -moz-box-shadow: 0px 1px 6px 0px rgba(166, 154, 154, 1);
+
+  .img4-kelas-halLain {
+    width: 250px;
+    margin: 19px 0 0 19px;
+    border-radius: 12px;
+  }
+  .parafCard-kelas-halLain-bantuan {
+    font-size: 13px;
+    font-weight: 600;
+    color: #707070;
+    margin: 20px 0 0 15px;
+  }
+  .parafCard2-kelas-halLain-bantuan {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .parafCard3-kelas-halLain-bantuan {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 12px 0 0 20px;
+  }
+  .parafCard4-kelas-halLain-bantuan {
+    font-size: 14px;
+    margin: 18px 0 0 20px;
+    font-weight: 400;
+  }
+}
+/* todo CARD KELAS DAN HAL LAINNYA (4) */
+/*! IKUTI KELAS DAN HAL LAINNYA DI TOKO END ===================   */
+/* ? TRADE-IN PRODUK ======================================== */
+.Judul-tradeIn-produk {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-tradeIn-produk {
+  height: 90dvh;
+  display: flex;
+
+  /*   todo CARD 1 PRODUK 3 TRADE IN  */
+  .card1-produkTrade-in {
+    text-align: center;
+    width: 380px;
+    height: 88vh;
+    margin-top: 15px;
+
+    .produk3-AppleWatch-Ultra2 {
+      border: 1px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 310px;
+      margin: 10px 0 0 15px;
+
+      .image-produk3-AppleWatch-Ultra2 {
+        cursor: pointer;
+        width: 290px;
+        margin-left: 10px;
+      }
+    }
+    .produk3-AppleWatch-Ultra2:hover {
+      .image-produk3-AppleWatch-Ultra2 {
+        transform: translateY(-3px) scale(1.05);
+        transition: 0.9s ease-in-out;
+      }
+    }
+
+    .parafcard1-produk3-AppleWatch-Ultra2 {
+      margin-top: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .parafcard1-produk3-AppleWatch-Ultra2:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+    .parafcard2-produk3-AppleWatch-ultra2 {
+      margin-top: 20px;
+      font-weight: 600;
+      color: #75757a;
+      text-decoration: line-through;
+    }
+    .parafcard3-produk3-AppleWatch-ultra2 {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .button-produk3-AppleWatch-Ultra2 {
+      background-color: #0071e3;
+      cursor: pointer;
+      color: white;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      padding: 15px 24px 15px 24px;
+      border-radius: 50px;
+    }
+    .button-produk3-AppleWatch-Ultra2:hover {
+      background-color: #5399df;
+    }
+  }
+  /*   todo CARD 1 PRODUK 3 TRADE IN  */
+  /*   todo CARD 2 PRODUK 3 TRADE IN  */
+  .card2-produkTrade-in {
+    text-align: center;
+    width: 380px;
+    height: 88vh;
+    margin-top: 15px;
+
+    .produk3-MacBookPro-M3Pro {
+      border: 1px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 310px;
+      margin: 10px 0 0 25px;
+
+      .image-produk3-MacBookPro-M3Pro {
+        cursor: pointer;
+        width: 290px;
+        margin-left: 10px;
+      }
+    }
+    .produk3-MacBookPro-M3Pro:hover {
+      .image-produk3-MacBookPro-M3Pro {
+        transform: translateY(-4px) scale(1.04);
+        transition: 0.9s ease-in-out;
+      }
+    }
+
+    .parafcard1-produk3-MacBookPro-M3Pro {
+      margin-top: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .parafcard1-produk3-MacBookPro-M3Pro:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+    .parafcard2-produk3-MacBookPro-M3Pro {
+      margin-top: 20px;
+      font-weight: 600;
+      color: #75757a;
+      text-decoration: line-through;
+    }
+    .parafcard3-produk3-MacBookPro-M3Pro {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .button-produk3-MacBookPro-M3-Pro {
+      background-color: #0071e3;
+      cursor: pointer;
+      color: white;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      padding: 15px 24px 15px 24px;
+      border-radius: 50px;
+    }
+    .button-produk3-MacBookPro-M3-Pro:hover {
+      background-color: #5399df;
+    }
+  }
+  /*   todo CARD 2 PRODUK 3 TRADE IN  */
+  /*   todo CARD 3 PRODUK 3 TRADE IN  */
+  .card3-produkTrade-in {
+    text-align: center;
+    width: 380px;
+    height: 88vh;
+    margin-top: 15px;
+
+    .produk3-iPhone15-Blue {
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 310px;
+      margin: 10px 0 0 20px;
+
+      .image-produk3-iPhone15-Blue {
+        cursor: pointer;
+        width: 290px;
+        margin-left: 10px;
+      }
+    }
+    .produk3-iPhone15-Blue:hover {
+      .image-produk3-iPhone15-Blue {
+        transform: translateY(-2px) scale(1.03);
+        transition: 0.9s ease-in-out;
+      }
+    }
+
+    .parafcard1-produk3-iPhone15-Blue {
+      margin-top: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .parafcard1-produk3-iPhone15-Blue:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+    .parafcard2-produk3-iPhone15-Blue {
+      margin-top: 20px;
+      font-weight: 600;
+      color: #75757a;
+      text-decoration: line-through;
+    }
+    .parafcard3-produk3-iPhone15-Blue {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .button-produk3-iPhone15-Blue {
+      background-color: #0071e3;
+      cursor: pointer;
+      color: white;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      padding: 15px 24px 15px 24px;
+      border-radius: 50px;
+    }
+    .button-produk3-iPhone15-Blue:hover {
+      background-color: #5399df;
+    }
+  }
+  /*   todo CARD 3 PRODUK 3 TRADE IN  */
+  /*   todo CARD 4 PRODUK 3 TRADE IN  */
+  .card4-produkTrade-in {
+    text-align: center;
+    width: 380px;
+    height: 88vh;
+    margin-top: 15px;
+
+    .produk4-13inch-iPadPro-M4 {
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 310px;
+      margin: 10px 0 0 25px;
+
+      .image-produk3-13inch-iPadPro-M4 {
+        cursor: pointer;
+        width: 290px;
+        margin-left: 10px;
+      }
+    }
+    .produk4-13inch-iPadPro-M4:hover {
+      .image-produk3-13inch-iPadPro-M4 {
+        transform: translateY(-2px) scale(1.03);
+        transition: 0.9s ease-in-out;
+      }
+    }
+
+    .parafcard1-produk3-13inch-iPadPro-M4 {
+      margin-top: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .parafcard1-produk3-13inch-iPadPro-M4:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+    .parafcard2-produk3-13inch-iPadPro-M4 {
+      margin-top: 20px;
+      font-weight: 600;
+      color: #75757a;
+      text-decoration: line-through;
+    }
+    .parafcard3-produk3-13inch-iPadPro-M4 {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .button-produk3-13inch-iPadPro-M4 {
+      background-color: #0071e3;
+      cursor: pointer;
+      color: white;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 20px;
+      padding: 15px 24px 15px 24px;
+      border-radius: 50px;
+    }
+    .button-produk3-13inch-iPadPro-M4:hover {
+      background-color: #5399df;
+    }
+  }
+  /*   todo CARD 4 PRODUK 3 TRADE IN  */
+}
+.container-tradeIn-produk::-webkit-scrollbar {
+  width: 0;
+}
+/* ? TRADE-IN PRODUK END ======================================= */
+/*! INFORMASI LANJUTAN =======================================*/
+.container-informasiLanjutan {
+  height: 50dvh;
+  display: flex;
+  justify-content: space-between;
+
+  /* todo CARD 1 INFORMASI LANJUTAN (Servis dan Bantuan Profesional) */
+  .Card1-informasiLanjutan-servis {
+    text-align: center;
+    width: 350px;
+    height: 45vh;
+    margin-top: 20px;
+
+    .icon-user2-servis {
+      margin-top: 20px;
+      width: 54px;
+    }
+    .paraf1-card1-informasiLanjutan-servis {
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 23px;
+      margin-top: 20px;
+    }
+    .paraf2-card1-informasiLanjutan-servis {
+      line-height: 15px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .paraf3-card1-informasiLanjutan-servis {
+      cursor: pointer;
+      color: #0071e7;
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 30px;
+    }
+    .paraf3-card1-informasiLanjutan-servis:hover {
+      color: #5399df;
+    }
+  }
+  /* todo CARD 1 INFORMASI LANJUTAN (Servis dan Bantuan Profesional) */
+  /* todo CARD 2 INFORMASI LANJUTAN (Credit dan Cicilan) */
+  .Card2-informasiLanjutan-credit {
+    text-align: center;
+    width: 350px;
+    height: 45vh;
+    margin-top: 20px;
+
+    .icon-credit {
+      margin-top: 20px;
+      width: 54px;
+    }
+    .paraf1-card2-informasiLanjutan-credit {
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 23px;
+      margin-top: 20px;
+    }
+    .paraf2-card2-informasiLanjutan-credit {
+      line-height: 15px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .paraf3-card2-informasiLanjutan-credit {
+      cursor: pointer;
+      color: #0071e7;
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 45px;
+    }
+    .paraf3-card2-informasiLanjutan-credit:hover {
+      color: #5399df;
+    }
+  }
+  /* todo CARD 2 INFORMASI LANJUTAN (Credit dan Cicilan) */
+  /* todo CARD 3 INFORMASI LANJUTAN (Beli Online , ambil di toko (Kurir) */
+  .Card3-informasiLanjutan-kurir {
+    text-align: center;
+    width: 350px;
+    height: 45vh;
+    margin-top: 20px;
+
+    .icon-kurir {
+      margin-top: 20px;
+      width: 54px;
+    }
+    .paraf1-card3-informasiLanjutan-kurir {
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 23px;
+      margin-top: 20px;
+    }
+    .paraf2-card3-informasiLanjutan-credit-kurir {
+      line-height: 15px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .paraf3-card3-informasiLanjutan-kurir {
+      cursor: pointer;
+      color: #0071e7;
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 60px;
+    }
+    .paraf3-card3-informasiLanjutan-kurir:hover {
+      color: #5399df;
+    }
+  }
+  /* todo CARD 3 INFORMASI LANJUTAN (Beli Online , ambil di toko (Kurir) */
+}
+/*! INFORMASI LANJUTAN END =======================================*/
+/*? AKSESORI UNGGULAN APPLE ======================================  */
+.judul-Aksesori-UnggulanApple {
+  margin: 30px 0 0 65px;
+  font-size: 33px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-Aksesori-UnggulanApple {
+  width: 100%;
+  height: 74dvh;
+  display: flex;
+
+  /* todo CARD 1 AKSESORI UNGGULAN APPLE (AKSESORI MAC) */
+  .Card1-Aksesori-UnggulanApple-AksesoriMac {
+    background-color: white;
+    cursor: pointer;
+    height: 65vh;
+    width: 290px;
+    margin: 20px 0 0 65px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AksesoriMac {
+      width: 200px;
+      margin: 1px 0 0 44px;
+      border-radius: 12px;
+    }
+    .paraf1-card1-Aksesori-UnggulanApple-AksesoriMac {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 30px 0 0 19px;
+    }
+    .paraf2-card1-Aksesori-UnggulanApple-AksesoriMac {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 19px;
+    }
+    .paraf3-card1-Aksesori-UnggulanApple-AksesoriMac {
+      font-size: 14px;
+      margin: 25px 0 0 19px;
+    }
+  }
+  /* todo CARD 1 AKSESORI UNGGULAN APPLE (AKSESORI MAC) */
+  /* todo CARD 2 AKSESORI UNGGULAN APPLE (AKSESORI IPAD) */
+  .Crad2-Aksesori-UnggulanApple-AksesoriIpad {
+    background-color: white;
+    cursor: pointer;
+    height: 65vh;
+    width: 290px;
+    margin: 20px 0 0 25px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AksesoriIpad {
+      width: 200px;
+      margin: 1px 0 0 44px;
+      border-radius: 12px;
+    }
+    .paraf1-card2-Aksesori-UnggulanApple-AksesoriIpad {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 30px 0 0 19px;
+    }
+    .paraf2-card2-Aksesori-UnggulanApple-AksesoriIpad {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 19px;
+    }
+    .paraf3-card2-Aksesori-UnggulanApple-AksesoriIpad {
+      font-size: 14px;
+      margin: 25px 0 0 19px;
+    }
+  }
+  /* todo CARD 2 AKSESORI UNGGULAN APPLE (AKSESORI IPAD) */
+  /* todo CARD 3 AKSESORI UNGGULAN APPLE (AKSESORI WATCH) */
+  .Crad3-Aksesori-UnggulanApple-AksesoriWatch {
+    background-color: white;
+    cursor: pointer;
+    height: 65vh;
+    width: 290px;
+    margin: 20px 0 0 25px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AksesoriWatch {
+      width: 230px;
+      margin-top: 30px;
+      margin-left: 44px;
+      border-radius: 12px;
+    }
+    .paraf1-card3-Aksesori-UnggulanApple-AksesoriWatch {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 30px 0 0 19px;
+    }
+    .paraf2-card3-Aksesori-UnggulanApple-AksesoriWatch {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 19px;
+    }
+    .paraf3-card3-Aksesori-UnggulanApple-AksesoriWatch {
+      font-size: 14px;
+      margin: 25px 0 0 19px;
+    }
+  }
+  /* todo CARD 3 AKSESORI UNGGULAN APPLE (AKSESORI WATCH) */
+  /* todo CARD 4 AKSESORI UNGGULAN APPLE (AKSESORI IPHONE) */
+  .Crad4-Aksesori-UnggulanApple-AksesoriIPhone {
+    background-color: white;
+    cursor: pointer;
+    height: 65vh;
+    width: 290px;
+    margin: 20px 0 0 25px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AksesoriIPhone {
+      width: 95px;
+      margin: 28px 0 0 85px;
+      border-radius: 12px;
+    }
+    .paraf1-card4-Aksesori-UnggulanApple-AksesoriIPhone {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 18px 0 0 19px;
+    }
+    .paraf2-card4-Aksesori-UnggulanApple-AksesoriIPhone {
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 19px;
+    }
+    .paraf3-card4-Aksesori-UnggulanApple-AksesoriIPhone {
+      font-size: 14px;
+      margin: 25px 0 0 19px;
+    }
+  }
+  /* todo CARD 4 AKSESORI UNGGULAN APPLE (AKSESORI IPHONE) */
+}
+/*? AKSESORI UNGGULAN APPLE END ===================================== */
+/*! INFORMASI DAN BANTUAN ========================================  */
+.container-informasiBantuan {
+  height: 210dvh;
+
+  /*todo BUTUH BANTUAN  */
+  .container-Butuh-Bantuan {
+    background-color: #f7f7f7;
+    margin: 30px 35px 0 35px;
+    height: 64vh;
+    border-radius: 10px;
+    display: flex;
+
+    .image-ButuhBantuan {
+      width: 620px;
+      border-radius: 10px 0 0 10px;
+    }
+
+    .text-ButuhBantuan {
+      text-align: center;
+      margin: auto;
+
+      .text1-ButuhBantuan {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: sans-serif;
+      }
+      .text2-ButuhBantuan {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .button-ButuhBantuan {
+        cursor: pointer;
+        border: 2px solid #2384e6;
+        border-radius: 29px;
+        color: #2384e6;
+        width: 140px;
+        font-weight: 700;
+        padding: 15px 13px 15px 13px;
+        margin: 20px 0 0 0;
+      }
+      .button-ButuhBantuan:hover {
+        border: 1px solid #5399df;
+        color: #5399df;
+      }
+    }
+  }
+  /*todo BUTUH BANTUAN  */
+  /*todo TOKO TERDEKAT  */
+  .container-TokoTerdekat {
+    background-color: #f7f7f7;
+    margin: 30px 35px 0 35px;
+    height: 64vh;
+    border-radius: 10px;
+    display: flex;
+
+    .text-TokoTerdekat {
+      width: 55%;
+      text-align: center;
+      margin: auto;
+
+      .text1-TokoTerdekat {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: sans-serif;
+      }
+      .text2-TokoTerdekat {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .button-TokoTerdekat {
+        cursor: pointer;
+        border: 2px solid #2384e6;
+        border-radius: 29px;
+        color: #2384e6;
+        width: 140px;
+        font-weight: 700;
+        padding: 15px 13px 15px 13px;
+        margin: 20px 0 0 0;
+      }
+      .button-TokoTerdekat:hover {
+        border: 1px solid #5399df;
+        color: #5399df;
+      }
+    }
+
+    .image-TokoTerdekat {
+      width: 620px;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+  /*todo TOKO TERDEKAT  */
+  /*todo IKUTI KELAS  */
+  .container-IkutiKelas {
+    background-color: #f7f7f7;
+    margin: 30px 35px 0 35px;
+    height: 64dvh;
+    border-radius: 10px;
+    display: flex;
+
+    .image-IkutiKelas {
+      width: 620px;
+      border-radius: 10px 0 0 10px;
+    }
+
+    .text-IkutiKelas {
+      text-align: center;
+      margin: auto;
+
+      .text1-IkutiKelas {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: sans-serif;
+      }
+      .text2-IkutiKelas {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .button-IkutiKelas {
+        cursor: pointer;
+        border: 2px solid #2384e6;
+        border-radius: 29px;
+        color: #2384e6;
+        width: 140px;
+        font-weight: 700;
+        padding: 15px 13px 15px 13px;
+        margin: 20px 0 0 0;
+      }
+      .button-IkutiKelas:hover {
+        border: 1px solid #5399df;
+        color: #5399df;
+      }
+    }
+  }
+  /*todo IKUTI KELAS  */
+}
+/*! INFORMASI DAN BANTUAN END ========================================  */
+/*? TENANG DENGAN APPLE CARE ==========================================   */
+.judul-tenangDengan-AppleCare {
+  margin: 30px 0 0 65px;
+  font-size: 33px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-tenangDengan-AppleCare {
+  height: 75dvh;
+  display: flex;
+
+  /* todo CARD 1 TENANG DENGAN APPLECARE (MACBOOK AIR) */
+  .container-Card1-tenangDengan-AppleCare-MacBookAir {
+    cursor: pointer;
+    width: 300px;
+    height: 64vh;
+    margin: 30px 0 0 65px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AppleCare-MacBookAir {
+      width: 215px;
+      height: auto;
+      margin: 10px 0 0 40px;
+    }
+    .paraf1-card1-AppleCare-MacBookAir {
+      font-size: 30px;
+      font-weight: 500;
+      margin: -4px 0 0 15px;
+    }
+    .paraf2-card1-AppleCare-MacBookAir {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 0 0 0 15px;
+    }
+    .paraf3-card1-AppleCare-MacBookAir {
+      font-size: 13px;
+      font-weight: 500;
+      margin: 7px 0 0 15px;
+    }
+  }
+  /* todo CARD 1 TENANG DENGAN APPLECARE (MACBOOK AIR) */
+  /* todo CARD 2 TENANG DENGAN APPLECARE (MACBOOK PRO) */
+  .container-card2-tenangDengan-AppleCare-MacBookPro {
+    cursor: pointer;
+    width: 300px;
+    height: 64dvh;
+    margin: 30px 0 0 15px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AppleCare-MacBookPro {
+      width: 215px;
+      height: auto;
+      margin: 10px 0 0 40px;
+    }
+    .paraf1-card2-AppleCare-MacBookPro {
+      font-size: 30px;
+      font-weight: 500;
+      margin: -4px 0 0 15px;
+    }
+    .paraf2-card2-AppleCare-MacBookPro {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 0 0 0 15px;
+    }
+    .paraf3-card2-AppleCare-MacBookPro {
+      font-size: 13px;
+      font-weight: 500;
+      margin: 7px 0 0 15px;
+    }
+  }
+  /* todo CARD 2 TENANG DENGAN APPLECARE (MACBOOK PRO) */
+  /* todo CARD 3 TENANG DENGAN APPLECARE (IMAC) */
+  .container-card3-tenangDengan-AppleCare-iMac {
+    cursor: pointer;
+    width: 300px;
+    height: 64vh;
+    margin: 30px 0 0 15px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(107, 99, 99, 0.75);
+
+    .image-AppleCareiMac {
+      width: 215px;
+      height: auto;
+      margin: 10px 0 0 40px;
+    }
+    .paraf1-card3-AppleCare-iMac {
+      font-size: 30px;
+      font-weight: 500;
+      margin: -4px 0 0 15px;
+    }
+    .paraf2-card3-AppleCare-iMac {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 0 0 0 15px;
+    }
+    .paraf3-card3-AppleCare-iMac {
+      font-size: 13px;
+      font-weight: 500;
+      margin: 7px 0 0 15px;
+    }
+  }
+  /* todo CARD 3 TENANG DENGAN APPLECARE (IMAC) */
+}
+/*? TENANG DENGAN APPLE CARE END ==========================================   */
+/*! CHEKOUT SEKARANG ==================================================  */
+.judul-checkOut-Sekarang {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99dvh;
+}
+
+.container-checkOut-sekarang {
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin-top: -30px;
+  width: 950px;
+  height: 90vh;
+  gap: 20px;
+
+  .produk4 {
+    width: 315px;
+    height: 85vh;
+    transition: 1s ease-in-out;
+  }
+  .imageProduk4 {
+    border: 1px solid black;
+    border-radius: 15px;
+
+    .img-produk4 {
+      height: auto;
+      width: 290px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .img-produk4:hover {
+      transform: translateY(-2px) scale(1.02);
+      transition: 0.5s ease-in-out;
+    }
+  }
+  /*todo IPHONE 16 PRO MAX   =====1=====*/
+  .NameProduk-iPhone16-ProMax {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone16-ProMax:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  .price-produk4-iPhone16-ProMax {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone16-ProMax {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone16-ProMax {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone16-ProMax:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 16 PRO MAX   =====1=====*/
+  /*todo IPHONE 16 PRO  =====2=====*/
+  .NameProduk-iPhone16-Pro {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone16-Pro:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-iPhone16-Pro {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone16-Pro {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone16-Pro {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone16-Pro:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 16 PRO  =====2=====*/
+  /*todo IPHONE 16 PRO PLUS  =====3=====*/
+  .NameProduk-iPhone16-ProPlus {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone16-ProPlus:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-iPhone16-ProPlus {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone16-ProPlus {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone16-ProPlus {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone16-ProPlus:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 16 PRO PLUS  =====3=====*/
+  /*todo IPHONE 16  =====4=====*/
+  .NameProduk-iPhone16 {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone16:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-iPhone16 {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone16 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone16 {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone16:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 16  =====4=====*/
+  /*todo EARPODS (USB-C)  =====5=====*/
+  .NameProduk-EarPods-USBC-C {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-EarPods-USBC-C:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-EarPods-USBC-C {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 16px;
+  }
+
+  .button-produk4-EarPods-USBC-C {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-EarPods-USBC-C:hover {
+    background-color: #5399df;
+  }
+  /*todo EARPODS (USB-C)  =====5=====*/
+  /*todo 240W USB-C CHARGER CABLE (2M)  =====6=====*/
+  .NameProduk-240W-USB-C-Cahrger-Cable-2m {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-240W-USB-C-Cahrger-Cable-2m:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-240W-USB-C-Cahrger-Cable-2m {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 16px;
+  }
+
+  .button-produk4-240W-USB-C-Cahrger-Cable-2m {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-240W-USB-C-Cahrger-Cable-2m:hover {
+    background-color: #5399df;
+  }
+  /*todo 240W USB-C CHARGER CABLE (2M)  =====6=====*/
+  /*todo AIRPODS 4  =====7=====*/
+  .NameProduk-AirPods-4 {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-AirPods-4:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-AirPods-4 {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-AirPods-4 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-AirPods-4 {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-AirPods-4:hover {
+    background-color: #5399df;
+  }
+  /*todo AIRPODS 4  =====7=====*/
+  /*todo AIRPODS 4 WITH ACTIVE NOISE CANCELLATION  =====8=====*/
+  .NameProduk-AirPods-4With-ActiveNoise-Cancellation {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-AirPods-4With-ActiveNoise-Cancellation:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-AirPods-4With-ActiveNoise-Cancellation {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .price2-produk4-AirPods-4With-ActiveNoise-Cancellation {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-AirPods-4With-ActiveNoise-Cancellation {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-AirPods-4With-ActiveNoise-Cancellation:hover {
+    background-color: #5399df;
+  }
+  /*todo AIRPODS 4 WITH ACTIVE NOISE CANCELLATION  =====8=====*/
+  /*todo USB-C TO LIGHTNING CABLE (1M)  =====9=====*/
+  .NameProduk-USB-C-toLightning-Cable {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-USB-C-toLightning-Cable:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-USB-C-toLightning-Cable {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 16px;
+  }
+
+  .button-produk4-USB-C-toLightning-Cable {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-USB-C-toLightning-Cable:hover {
+    background-color: #5399df;
+  }
+  /*todo USB-C TO LIGHTNING CABLE (1M) =====9=====*/
+  /*todo APPLE WATCH SE WITH SPORT BAND  =====10=====*/
+  .NameProduk-AppleWatch-SE-WithSport-Band {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-AppleWatch-SE-WithSport-Band:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-AppleWatch-SE-WithSport-Band {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-AppleWatch-SE-WithSport-Band {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-AppleWatch-SE-WithSport-Band {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-AppleWatch-SE-WithSport-Band:hover {
+    background-color: #5399df;
+  }
+  /*todo APPLE WATCH SE WITH SPORT BAND  =====10=====*/
+  /*todo IPHONE 13  =====11=====*/
+  .NameProduk-iPhone13 {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone13:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-iPhone13 {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone13 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone13 {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone13:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 13  =====11=====*/
+  /*todo IPHONE 15  =====12=====*/
+  .NameProduk-iPhone15 {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-iPhone15:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-iPhone15 {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-iPhone15 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-iPhone15 {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-iPhone15:hover {
+    background-color: #5399df;
+  }
+  /*todo IPHONE 15  =====12=====*/
+  /*todo 2022 10.9-INCH IPAD  =====13=====*/
+  .NameProduk-2022-10-9inch-iPad {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-2022-10-9inch-iPad:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-2022-10-9inch-iPad {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-align: center;
+    color: #82757a;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .price2-produk4-2022-10-9inch-iPad {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .button-produk4-2022-10-9inch-iPad {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-2022-10-9inch-iPad:hover {
+    background-color: #5399df;
+  }
+  /*todo 2022 10.9-INCH IPAD  =====13=====*/
+  /*todo 14-INCH MACBOOK PRO M4  =====14=====*/
+  .NameProduk-14inch-MacBook-Prom4 {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .NameProduk-14inch-MacBook-Prom4:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .price-produk4-14inch-MacBook-Prom4 {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 16px;
+  }
+
+  .button-produk4-14inch-MacBook-Prom4 {
+    background-color: #0071e3;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 65px;
+    padding: 15px 26px 15px 26px;
+    border-radius: 50px;
+  }
+  .button-produk4-14inch-MacBook-Prom4:hover {
+    background-color: #5399df;
+  }
+  /*todo 14-INCH MACBOOK PRO M4 =====14=====*/
+}
+
+.Arrow {
+  justify-content: space-between;
+  position: absolute;
+  display: flex;
+  margin-bottom: 120px;
+  width: 915px;
+
+  .leftSlide {
+    background-color: #0071e3;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-left: -115px;
+  }
+  .rightSlide {
+    background-color: #0071e3;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-right: -115px;
+  }
+}
+/*! CHEKOUT SEKARANG END ==================================================  */
+/*? FOOTER WEBSITE ======================================================= */
+.container-footer {
+  height: 77dvh;
+  display: flex;
+  justify-content: space-evenly;
+
+  /*todo BELANJA =================================*/
+  .section-belanja {
+    width: 100px;
+    height: 44dvh;
+    margin-top: 55px;
+
+    .Belanja {
+      font-size: 17px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 5px;
+    }
+    .belanja-Mac {
+      text-align: left;
+      font-size: 14px;
+      margin: 30px 0 0 7px;
+    }
+    .belanja-iPad {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .belanja-iPhone {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .belanja-Watch {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .belanja-Music {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .belanja-Aksesori {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+  }
+  /*todo BELANJA =================================*/
+  /*todo LAYANAN =================================*/
+  .section-layanan {
+    width: 165px;
+    height: 55dvh;
+    margin-top: 55px;
+
+    .Layanan {
+      font-size: 17px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 5px;
+    }
+    .layanan-Layanan-Pelanggan {
+      text-align: left;
+      font-size: 14px;
+      margin: 30px 0 0 7px;
+    }
+    .layanan-Bisnis {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-Financing {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-Trade-In {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-In-Store {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-In-Store-Classes {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-AppleCare {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .layanan-iProtect {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+  }
+  /*todo LAYANAN =================================*/
+  /*todo TENTANG IBOX =================================*/
+  .section-tentangiBox {
+    width: 80px;
+    height: 40dvh;
+    margin-top: 55px;
+
+    .Tentang-iBox {
+      font-size: 17px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 5px;
+    }
+    .tentang-ibox--tentangIbox {
+      text-align: left;
+      font-size: 14px;
+      margin: 30px 0 0 7px;
+    }
+    .tentang-ibox-hubungiKami {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .tentang-ibox-Yangsering-ditanyakan {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .tentang-ibox-Caritoko {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .tentang-ibox-InformasiKeamanan {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+  }
+  /*todo TENTANG IBOX =================================*/
+  /*todo KEBIJAKAN =================================*/
+  .section-kebijakan {
+    width: 190px;
+    height: 28dvh;
+    margin-top: 55px;
+
+    .Kebijakan {
+      font-size: 17px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 5px;
+    }
+    .kebijakan-kebijakan-pengiriman {
+      text-align: left;
+      font-size: 14px;
+      margin: 30px 0 0 7px;
+    }
+    .kebijakan-kebijakan-privasi {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+    .kebijakan-Akun-saya {
+      text-align: left;
+      font-size: 14px;
+      margin: 15px 0 0 7px;
+    }
+  }
+  /*todo KEBIJAKAN =================================*/
+  /*todo APPLE PREMIUM PARTNER =================================*/
+  .section-applePremium-partner {
+    width: 220px;
+    height: 35dvh;
+    margin-top: 55px;
+
+    .Apple-Premium-Partner {
+      font-size: 17px;
+      font-weight: 500;
+      text-align: left;
+      margin-left: 5px;
+    }
+    .footer-Apple-PremiumPartner {
+      margin: 30px 0 0 7px;
+      width: 130px;
+      height: auto;
+    }
+  }
+  /*todo APPLE PREMIUM PARTNER =================================*/
+}
+/*! FOOTER 2 ===========================================================   */
+.container-footer2 {
+  display: flex;
+  height: 78dvh;
+
+  /*todo CONTACT FOOTER2 =========================  */
+  .contact-footer2 {
+    width: 50%;
+    height: 78dvh;
+
+    .contact {
+      width: 100%;
+      display: flex;
+      margin-top: 40px;
+
+      .clock-footer2 {
+        width: 11px;
+        height: 11px;
+        margin: 11px 3px 0 90px;
+      }
+      .jam-footer2 {
+        cursor: pointer;
+        font-size: 13px;
+        margin: 8px 0 0 10px;
+      }
+    }
+  }
+
+  /* BATAS =========================> */
+  .email {
+    width: 100%;
+    display: flex;
+
+    .email-footer2 {
+      width: 11px;
+      height: 11px;
+      margin: 11px 3px 0 90px;
+    }
+    .paraf-email-footer2 {
+      font-size: 13px;
+      margin: 8px 0 0 10px;
+    }
+  }
+  /* BATAS =========================> */
+  .Contact-Center {
+    width: 100%;
+    display: flex;
+
+    .contactCenter-footer2 {
+      width: 11px;
+      height: 11px;
+      margin: 11px 3px 0 90px;
+    }
+    .paraf-contactCenter-footer2 {
+      font-size: 13px;
+      margin: 8px 0 0 10px;
+    }
+  }
+  /* BATAS =========================> */
+  .WhatsApp {
+    width: 100%;
+    display: flex;
+
+    .whatsApp-footer2 {
+      width: 11px;
+      height: 11px;
+      margin: 11px 3px 0 90px;
+    }
+    .paraf-whatsApp-footer2 {
+      font-size: 13px;
+      margin: 8px 0 0 10px;
+    }
+  }
+  /* BATAS =========================> */
+  .layananPengaduan-footer2 {
+    margin: 30px 0 0 90px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .paraf-layanan-pengaduan-footer2 {
+    margin: 20px 0 0 90px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .paraf2-layanan-pengaduan-footer2 {
+    margin: 20px 0 0 90px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+/*todo CONTACT FOOTER2 =========================  */
+/*todo PAYMENT INFORMASI DAN PENGIRIMAN FOOTER2 =========================   */
+.metodePayment-pengiriman-footer2 {
+  width: 50%;
+  height: 78dvh;
+  text-align: right;
+
+  /** ICON SOCIAL MEDIA FOOTER 2 ====================== */
+  .All-icon-footer2 {
+    /*todo twitter */
+    .icon-twitter-footer2 {
+      cursor: pointer;
+      margin-right: 18px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo twitter */
+    /*todo facebook */
+    .icon-facebook-footer2 {
+      cursor: pointer;
+      margin-right: 18px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo facebook */
+    /*todo instagram */
+    .icon-instagram-footer2 {
+      cursor: pointer;
+      margin-right: 18px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo instagram */
+    /*todo youtube */
+    .icon-youtube-footer2 {
+      cursor: pointer;
+      margin-right: 18px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo youtube */
+    /*todo tiktok */
+    .icon-tiktok-footer2 {
+      cursor: pointer;
+      margin-right: 18px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo tiktok */
+    /*todo whatsApp */
+    .icon-whatsApp-footer2 {
+      cursor: pointer;
+      margin-right: 122px;
+      width: 20px;
+      height: 20px;
+    }
+    /*todo whatsApp */
+  }
+  /** ICON SOCIAL MEDIA FOOTER 2 ====================== */
+  /** BATAS =============================== */
+  .paraf-metodePayment-footer2 {
+    margin: 30px 122px 0 0;
+    font-weight: 600;
+  }
+  .payment-footer2 {
+    margin: 10px 122px 0 0;
+    width: 310px;
+  }
+  .paraf-jasaPengiriman-footer2 {
+    margin: 20px 122px 0 0;
+    font-weight: 600;
+  }
+  .jasaPengiriman-footer2 {
+    margin: 10px 110px 0 0;
+    width: 240px;
+  }
+  /** BATAS =============================== */
+}
+/*todo PAYMENT INFORMASI DAN PENGIRIMAN FOOTER2 =========================   */
+/*! FOOTER 2 END ===========================================================   */
+
+/*! footer 3 =====================   */
+.footer3 {
+  height: 12dvh;
+
+  .paraf-footer3 {
+    text-align: center;
+  }
+  .instagram-denefha-footer3 {
+    text-align: right;
+    margin: 20px 20px 0 0;
+  }
+}
+/*! footer 3 =====================   */
+/*? FOOTER WEBSITE END ======================================================= */
